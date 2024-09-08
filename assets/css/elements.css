@@ -1,0 +1,97 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+
+body{
+    
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5;
+    color: var(--primary-color)
+}
+
+li{
+    all:unset;
+}
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-size: 6rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+    line-height: 1.2;
+   
+}
+
+h3{
+    font-size: 5rem;
+    
+}
+
+h4{
+    font-size: 4.5rem;
+    
+}
+
+h5{
+    font-size: 4rem;
+    
+}
+
+h6{
+    font-size: 3.5rem;
+}
+p{
+    margin-bottom: 3rem;
+}
+
+.responsive-table {
+    width: 100%;
+    overflow-x: auto; 
+}
+
+table {
+    min-width: 600px;  
+    width: 100%; 
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: left;
+    border: 1px solid var(--table-color); 
+}
+
+tfoot td, thead tr {
+    background-color: var(--table-color);
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 4rem; 
+    }
+
+    table th, table td {
+        font-size: 1.4rem;
+    }
+}
+
